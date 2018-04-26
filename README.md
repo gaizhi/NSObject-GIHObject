@@ -1,7 +1,7 @@
-# NSObject-GZHObject
+# NSObject-GIHObject
 
 A category of NSObject expand a swizzle method
 
 # Usage
 
-`pod 'NSObject-GZHObject', '~> 0.0.1'`
+`pod 'NSObject-GIHObject', '~> 0.0.1'`

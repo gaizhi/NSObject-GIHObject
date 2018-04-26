@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-#import "NSObject+GZHObject.h"
+#import "NSObject+GIHObject.h"
 
 @interface ViewController ()
 
@@ -22,6 +22,13 @@
 
 - (void)swz_viewDidLoad {
     [self swz_viewDidLoad];
+
+    UILabel *tipsLabel = [[UILabel alloc] init];
+    tipsLabel.text = @"If you seeing this, then means swizzle works!";
+    tipsLabel.frame = CGRectMake(10, 30, 30, 30);
+    tipsLabel.textColor = [UIColor redColor];
+    [tipsLabel sizeToFit];
+    [self.view addSubview:tipsLabel];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

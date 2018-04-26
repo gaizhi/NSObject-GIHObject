@@ -1,16 +1,16 @@
 //
-//  NSObject+GZHObject.m
-//  NSObject-GZHObject
+//  NSObject+GIHObject.m
+//  NSObject-GIHObject
 //
 //  Created by 强徐 on 16/6/15.
 //  Copyright © 2016年 starnet. All rights reserved.
 //
 
-#import "NSObject+GZHObject.h"
+#import "NSObject+GIHObject.h"
 
 #import <objc/runtime.h>
 
-@implementation NSObject (GZHObject)
+@implementation NSObject (GIHObject)
 
 + (void)gzh_swizzleSelector:(SEL)origSelector withSelector:(SEL)newSelector {
     

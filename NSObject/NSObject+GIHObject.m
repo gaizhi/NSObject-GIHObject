@@ -12,7 +12,7 @@
 
 @implementation NSObject (GIHObject)
 
-+ (void)gzh_swizzleSelector:(SEL)origSelector withSelector:(SEL)newSelector {
++ (void)gih_swizzleSelector:(SEL)origSelector withSelector:(SEL)newSelector {
     
     Method origMethod = class_getInstanceMethod(self, origSelector);
     Method newMethod = class_getInstanceMethod(self, newSelector);

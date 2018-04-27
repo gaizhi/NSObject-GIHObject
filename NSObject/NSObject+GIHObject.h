@@ -10,6 +10,6 @@
 
 @interface NSObject (GIHObject)
 
-+ (void)gzh_swizzleSelector:(SEL)origSelector withSelector:(SEL)newSelector;
++ (void)gih_swizzleSelector:(SEL)origSelector withSelector:(SEL)newSelector;
 
 @end
